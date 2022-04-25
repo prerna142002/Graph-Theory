@@ -1,0 +1,24 @@
+Shortest path problems
+----------------------
+Given a weighted graphs find the shortest path of edgees from node A to node B.
+Algorithms: BFS, Dikstra's, Bellman Ford, A* and many
+
+Connectivity
+------------
+Does there exist a path between node A and node B/
+Typical Solutions: Use union find data structures or any search algorithms.
+
+Negative Cycles
+---------------
+Does my weighted digraphs have any negative cycles? If so, where?
+Algorithms: Bellman-Ford and Floyd-Warshall
+
+Strongly Connected Components:
+--------------------------------
+Can be thought of as self-contained cycles within a directed graphs where vertex in a given cycle can reach every other vertex in a given cycle can reach every other vertx in the same cycle.
+Algorithms: Tarjan's and Kosaraju's Algorithm
+
+
+
+
+
