@@ -1,2 +1,61 @@
 Mathematical theory of the properrties and applications of graphs (networks).
 Pop - up anywhere.
+Answer interesting questions
+Understand intreseting relationships between the nodes.
+
+
+Types of Graphs:
+1. Undirected Graphs: Egdes have no orientation.
+2. Directed Graphs: Directed edges have orientations.
+3. Weighted Graphs: Edges containsweight to represent arbitary values.
+4. Special Graphs: Trees ( unidirected graphs with no cycles).
+5. Rooted Graphs: has a designated root node wheere every edge either pints away from or towards the root node.
+6. Directed Acyclic Graphs: No cycles. These graphs play an important role in representing strcutures with dependencies.
+ *** All out-trees are DAG but not all DAGs are out-trees. ***
+7. Bipartite Graph: one whose veritces can be slpit into 2 independent gorups U, V such that every edge connectes between U and V.
+8. Complete Graphs: there is unique edge between every pair of nodes.
+
+Representing Graphs:
+-------------------------------------------------------------------
+Adjacency Matrix:
+
+m[i][j] : reprents the weight when a edge is between i to j.
+
+Adv:
+1. Space efficient for representing dense graphs.
+2. Edge weight lookup is O(1).
+3. Simplest graphs representation.
+
+Disadvantages:
+1. Requires O(V^2) space.
+2. Iterating over all edges takes O(V^2) times.
+
+--------------------------------------------------------------------
+Adjancency List
+Represent a graphs as a map from nodes to list of edges.
+
+Advantages:
+1. Space efficient for representing sparse graphs.
+2. Iterating all edges is efficient
+
+Disadvantages:
+1. Less space efficient for dense grpahs
+2. Edge weight lookup is o(E).
+3. Slightly more complex graphs representation.
+
+-------------------------------------------------------------------------
+Edge List
+Unordered list of edges.
+The cost from node u to node v is w.
+
+This representation is seldomly used because of its lack of structure.
+However, it is conceptually simple and practical in handful of algorithms.
+
+Advantages:
+1. Space efficient for representaing sparse graphs.
+2. Iterating over all edges is efficient.
+3. Very simple structure..
+
+Disadvatges:
+1. Less space efficient for denser graphs.
+2. Edge weight lookup is O(E).
