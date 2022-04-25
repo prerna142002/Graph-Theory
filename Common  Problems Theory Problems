@@ -18,6 +18,32 @@ Strongly Connected Components:
 Can be thought of as self-contained cycles within a directed graphs where vertex in a given cycle can reach every other vertex in a given cycle can reach every other vertx in the same cycle.
 Algorithms: Tarjan's and Kosaraju's Algorithm
 
+Traveling Salesman Problem:
+---------------------------
+Given a list of cities and the distance between each pair of cities and the distances between each pair of cities, what is the shortest possible route that visites each city exactly once and returns to the origin city?
+NP hard - computation challenging problems. Unforltunate as they are used in various algos.
+Algorithms: Held-Karl, branch and bound and many apporximation algos/
+
+Bridges:
+--------
+A bridge/cut edges is any edges in a graph whose removal increases the number of connected components.
+Bridges are important in graph theory because they often hint at weak points, bottlenecks or vunerabiliteis in a graph.
+
+Articulations Points:
+---------------------
+Is any node in a graph whose removal increases the number of connected components.
+
+Minimum Spanning Tree:
+----------------------
+Is a subset of the edges of a connected, edge-wweightted graphs that connect all the vertices together, without any cycles and with the minimum possible total edge weight.
+Algorithms: Krushkal's, Prim's and Boruvka's Algorithm.
+
+
+
+
+
+
+
 
 
 
