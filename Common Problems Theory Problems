@@ -36,7 +36,16 @@ Is any node in a graph whose removal increases the number of connected component
 Minimum Spanning Tree:
 ----------------------
 Is a subset of the edges of a connected, edge-wweightted graphs that connect all the vertices together, without any cycles and with the minimum possible total edge weight.
+MST are not uniques.
 Algorithms: Krushkal's, Prim's and Boruvka's Algorithm.
+
+Network Flow: max flow
+----------------------
+Flow networks 
+edge weight - capacity (max cars fitting on the road)
+To find the max flow we can make it to the maximum.
+Sink and Source
+
 
 
 
