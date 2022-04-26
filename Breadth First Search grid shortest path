@@ -1,1 +1,17 @@
+Motvivation:
+------------
+Many problmes in graphs theory can be represented using a grid.
+Grids are a form of implicit graph because we can determine a node's neighbours based on our location within the grid.
+
+Graph Theory on Grids:
+----------------------
+A common approach to solving graph theory problems on grids is to first convert the grid to a familiar format such as an adjancency list/matrix.
+IMPORTANT: Assume the grid is unweighted and cells left, right, up and down.
+
+Once we have an adjanceny list/matrix we can run whatever specialized graph algo to solve our problem such as:
+shortest path, connected components , etc.
+
+However, transformations between graph representataions can usually be avoided due to the structure of a grid.
+
+
 
