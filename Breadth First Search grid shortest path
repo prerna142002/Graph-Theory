@@ -13,5 +13,3 @@ shortest path, connected components , etc.
 
 However, transformations between graph representataions can usually be avoided due to the structure of a grid.
 
-
-
