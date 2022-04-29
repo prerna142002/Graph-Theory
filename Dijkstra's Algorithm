@@ -1,0 +1,13 @@
+Single Source Shortest Path (SSSP)
+Non-negative edge weights
+
+TC: O( E*log(V) )
+
+
+Prerequisitive:
+Contain non-negative edge weights:
+----------------------------------
+Ensure that once a node has been visited its optimal distance cannot be improved.
+Enables to act in GREEDY Manner by always selecting the next most promising node.
+
+
